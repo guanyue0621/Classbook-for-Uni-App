@@ -1,0 +1,16 @@
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: FATAL EXCEPTION: main
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: Process: io.dcloud.HBuilder, PID: 10602
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: java.lang.UnsatisfiedLinkError: No implementation found for void com.taobao.weex.bridge.WXBridge.nativeResetWXBridge(java.lang.Object, java.lang.String) (tried Java_com_taobao_weex_bridge_WXBridge_nativeResetWXBridge and Java_com_taobao_weex_bridge_WXBridge_nativeResetWXBridge__Ljava_lang_Object_2Ljava_lang_String_2) - is the library loaded, e.g. System.loadLibrary?
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at com.taobao.weex.bridge.WXBridge.nativeResetWXBridge(Native Method)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at com.taobao.weex.bridge.WXBridge.resetWXBridge(r8-map-id-b4716a25f9920722ba6f2d7f7c6f40e43a654927e8ebe1c489894a7bc6a88ab4:2)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at com.taobao.weex.bridge.WXBridgeManager.restart(r8-map-id-b4716a25f9920722ba6f2d7f7c6f40e43a654927e8ebe1c489894a7bc6a88ab4:4)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at com.taobao.weex.WXSDKEngine.restartWeex(r8-map-id-b4716a25f9920722ba6f2d7f7c6f40e43a654927e8ebe1c489894a7bc6a88ab4:2)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at io.dcloud.feature.weex.WeexInstanceMgr$1.run(r8-map-id-b4716a25f9920722ba6f2d7f7c6f40e43a654927e8ebe1c489894a7bc6a88ab4:8)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:991)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+08-23 16:22:54.885 10602 10602 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)

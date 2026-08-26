@@ -1,0 +1,120 @@
+{
+    "name" : "同学录 Classbook",
+    "appid" : "__UNI__137BD60",
+    "description" : "由guanyue本人亲自出品的同学录系统",
+    "versionName" : "1.11.01",
+    "versionCode" : 100110,
+    "vueVersion" : "3",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Push" : {},
+            "VideoPalyer" : {},
+            "LivePusher" : {},
+            "Barcode" : {},
+            "Bluetooth" : {},
+            "Camera" : {},
+            "Contacts" : {},
+            "FaceID" : {},
+            "Fingerprint" : {},
+            "iBeacon" : {},
+            "Messaging" : {},
+            "VideoPlayer" : {},
+            "UIWebview" : {},
+            "Record" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+                ]
+            },
+            "ios" : {
+                "dSYMs" : true
+            },
+            "sdkConfigs" : {
+                "ad" : {},
+                "push" : {
+                    "unipush" : {}
+                },
+                "speech" : {
+                    "baidu" : {
+                        "appid" : "",
+                        "apikey" : "",
+                        "secretkey" : ""
+                    }
+                },
+                "share" : {}
+            },
+            "splashscreen" : {
+                "androidStyle" : "common",
+                "useOriginalMsgbox" : true
+            }
+        }
+    },
+    "app-harmony" : {
+        "name" : "同学录 Classbook",
+        "package" : "com.classbook.app",
+        "icon" : "static/logo.png",
+        "adaptiveIcon" : {
+            "background" : "#2B6CB0",
+            "foreground" : "static/logo.png"
+        },
+        "version" : {
+            "code" : "11101",
+            "name" : "1.11.01"
+        },
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "permissions" : [ "ohos.permission.INTERNET" ],
+        "modules" : {},
+        "distortion" : {}
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "h5" : {
+        "router" : {
+            "mode" : "hash"
+        },
+        "domain" : "",
+        "sdkConfigs" : {
+            "maps" : {}
+        }
+    },
+    "locale" : "zh-Hans",
+    "fallbackLocale" : "zh-Hans",
+    "uni-ad" : {
+        "app-plus" : {
+            "tags" : {
+                "splash" : "splash",
+                "interstitial" : "interstitial",
+                "rewarded-video" : "rewarded-video"
+            }
+        },
+        "mp-weixin" : {
+            "appid" : ""
+        }
+    },
+    "uni-push" : {
+        "enable" : true
+    }
+}

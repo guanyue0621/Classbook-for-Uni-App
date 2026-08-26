@@ -1,0 +1,39 @@
+.icon[data-v-ca7f3f1d] { display: block; flex: none;
+}
+
+
+.welcome[data-v-085f0530] {
+  min-height: 100vh;
+  background: radial-gradient(130% 130% at 50% 0%, #FBF7F3 0%, #F4F3EF 60%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 1.875rem;
+}
+.hero[data-v-085f0530] { text-align: center; margin-bottom: 2.5rem;
+}
+.badge[data-v-085f0530] {
+  width: 4.375rem; height: 4.375rem; border-radius: 1.25rem; margin: 0 auto 1rem;
+  background: linear-gradient(135deg, #DA4F33, #F0A48C);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 0.5625rem 1.375rem -0.5rem rgba(218,79,51,.55);
+}
+.logo[data-v-085f0530] {
+  font-size: 1.25rem; font-weight: 800; letter-spacing: 0.1875rem; color: #DA4F33;
+  margin-bottom: 1.125rem;
+}
+.title[data-v-085f0530] { font-size: 2rem; font-weight: 800; color: #14141A; letter-spacing: 0.0625rem;
+}
+.sub[data-v-085f0530] { font-size: 0.8125rem; color: #7C7A74; margin-top: 0.75rem; line-height: 1.7;
+}
+.actions[data-v-085f0530] { width: 80%;
+}
+.btn[data-v-085f0530] {
+  height: 3rem; line-height: 3rem; background: #14141A; color: #fff;
+  border-radius: 0.5rem; font-size: 1rem; font-weight: 700;
+  transition: transform .12s ease, opacity .12s ease;
+}
+.btn-hover[data-v-085f0530] { transform: scale(.97); opacity: .9;
+}
+.hint[data-v-085f0530] { display: block; text-align: center; color: #7C7A74; font-size: 0.75rem; margin-top: 0.75rem;
+}
+.foot[data-v-085f0530] { position: absolute; bottom: 1.5rem; color: #b8b4ac; font-size: 0.6875rem; letter-spacing: 0.0625rem;
+}

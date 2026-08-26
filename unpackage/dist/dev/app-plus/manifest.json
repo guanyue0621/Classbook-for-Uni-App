@@ -1,0 +1,126 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__137BD60",
+  "name": "同学录 Classbook",
+  "version": {
+    "name": "1.11.01",
+    "code": 100110
+  },
+  "description": "由管越本人亲自出品的同学录系统",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Push": {},
+    "VideoPalyer": {},
+    "LivePusher": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "render": "always",
+      "id": "1",
+      "kernel": "WKWebview"
+    },
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "distribute": {
+      "splashscreen": {
+        "androidStyle": "common",
+        "useOriginalMsgbox": true
+      },
+      "google": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+        ]
+      },
+      "apple": {
+        "dSYMs": true
+      },
+      "plugins": {
+        "ad": {},
+        "push": {
+          "unipush": {
+            "version": "2",
+            "offline": false
+          }
+        },
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#FBF7F3"
+    },
+    "allowsInlineMediaPlayback": true,
+    "uni-app": {
+      "control": "uni-v3",
+      "vueVersion": "3",
+      "compilerVersion": "5.24",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      },
+      "nvueLaunchMode": "normal",
+      "webView": {
+        "minUserAgentVersion": "49.0"
+      }
+    }
+  },
+  "app-harmony": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "name": "同学录 Classbook",
+    "package": "com.classbook.app",
+    "icon": "static/logo.png",
+    "adaptiveIcon": {
+      "background": "#2B6CB0",
+      "foreground": "static/logo.png"
+    },
+    "version": {
+      "code": "11101",
+      "name": "1.11.01"
+    },
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "permissions": [
+      "ohos.permission.INTERNET"
+    ],
+    "modules": {},
+    "distortion": {}
+  },
+  "locale": "zh-Hans",
+  "launch_path": "__uniappview.html"
+}

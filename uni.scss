@@ -1,0 +1,25 @@
+/* 同学录 Classbook · 全局主题（与网页端 index.html 视觉一致）
+ * 暖白底 + 珊瑚强调 + 液态玻璃质感 */
+$uni-color-primary: #DA4F33;   /* 珊瑚红（网页端 --accent） */
+$uni-color-success: #18a058;
+$uni-color-warning: #f0a020;
+$uni-color-error: #d03050;
+
+/* 文本 */
+$uni-text-color: #14141A;       /* 墨色（网页端 --ink） */
+$uni-text-color-grey: #7C7A74;  /* 弱化字（网页端 --muted） */
+$uni-text-color-inverse: #ffffff;
+
+/* 背景 */
+$uni-bg-color: #F4F3EF;         /* 暖白（网页端 --bg） */
+$uni-bg-color-glass: rgba(255,255,255,.55);
+
+/* 圆角 */
+$uni-border-radius: 18rpx;
+$uni-border-radius-lg: 28rpx;
+
+/* 玻璃质感通用阴影 */
+$glass-shadow: 0 12rpx 40rpx -14rpx rgba(31,38,80,.30), inset 0 1px 0 rgba(255,255,255,.7);
+
+/* 页面通用底部留白（给 BottomNav 让位） */
+$page-pad-bottom: 160rpx;
